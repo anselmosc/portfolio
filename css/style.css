@@ -7,8 +7,9 @@
     box-sizing: border-box;
 }
 
+/*Modo escuro padrão */
 body {
-    background: url("../img/bg-desktop.jpg") no-repeat top center/cover;
+    background: url("../img/bg-mobile.jpg") no-repeat top center/cover;
     height: 100vh;
 }
 
