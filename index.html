@@ -1,45 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <script defer src="js/script.js"></script>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Portfólio</title>
-</head>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script defer src="js/script.js"></script>
+    </head>
 <body>
-   <div>
-       <div>
-            <img src="img/imagem linkedin.jfif" alt="">  
+   <div id="container">
+       <div id="profile">
+            <img
+            class="profile-photo"
+            src="img/Anselmo_social.jpeg" alt="Foto de homem de terno preto e camisa azul"/>  
             <p>@Anselmo.Santana 👨‍🎓</p>     
+       </div>
+
+       <div id="switch" onclick="toogleMode()">
+          <button></button>
+          <span></span>
        </div>
        
        <ul>
            <li>
-                <a href="">Um pouco mais sobre mim</a>
+                <a href="#">Um pouco mais sobre mim</a>
+           </li>
+
+           <li>
+                <a href="#">Baixar currículo</a>
+           </li>
+
+           <li>
+                <a href="https://github.com/anselmosc">Ver meu portfólio</a>
            </li>
            <li>
-                <a href="">Baixar currículo</a>
-           </li>
-           <li>
-                <a href="">Ver meu portfólio</a>
-           </li>
-           <li>
-                <a href="">Projetos realizados</a>
+                <a href="#" target="_blank">
+                    Projetos realizados
+               </a>
            </li>
        </ul>
 
 
-       <div>
-          <a href="">
+       <div id="social-links">
+          <a href="https://github.com/anselmosc">
                <ion-icon name="logo-github"></ion-icon>
           </a>
 
-          <a href="">
+          <a href="https://www.instagram.com/anselmo__santana/">
                <ion-icon name="logo-instagram"></ion-icon>
           </a>
 
-          <a href="">
+          <a href="https://www.linkedin.com/in/anselmo-santana-9014b151/">
                <ion-icon name="logo-linkedin"></ion-icon>
           </a>
 
@@ -55,7 +67,7 @@
        </div>
        
        <footer>
-          Feito com o ❤ com o 1° DSN da <a href="">Etec de Embu</a>
+          Feito em parceria com o 1° DSN da <a href="https://www.etecdeembu.com.br/">Etec de Embu</a>
        </footer>
 
    </div>
